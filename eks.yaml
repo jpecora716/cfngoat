@@ -61,6 +61,18 @@ Resources:
           Value: cfngoat
         - Key: git_org
           Value: jpecora716
+        - Key: git_last_modified_by
+          Value: mike@bridgecrew.io
+        - Key: yor_trace
+          Value: d0c28b39-b842-4803-a7b8-a4ea8056eb99
+        - Key: git_file
+          Value: eks.yaml
+        - Key: git_commit
+          Value: 1aab848a22a383d185f8d0d6ed344076f636769b
+        - Key: git_modifiers
+          Value: mike
+        - Key: git_last_modified_at
+          Value: "2020-07-15 20:22:37"
   VPC:
     Type: AWS::EC2::VPC
     Properties:
@@ -74,6 +86,9 @@ Resources:
           Value: cfngoat
         - Key: git_org
           Value: jpecora716
+        - Key: yor_trace
+          Value: e672877b-726b-4bb5-bb27-f7e8edb7613e
+
   InternetGateway:
     Type: "AWS::EC2::InternetGateway"
     Properties:
@@ -84,6 +99,8 @@ Resources:
           Value: cfngoat
         - Key: git_org
           Value: jpecora716
+        - Key: yor_trace
+          Value: c4e86b57-aa6a-4ff4-bef0-35905cc87db7
   VPCGatewayAttachment:
     Type: "AWS::EC2::VPCGatewayAttachment"
     Properties:
@@ -102,6 +119,8 @@ Resources:
           Value: cfngoat
         - Key: git_org
           Value: jpecora716
+        - Key: yor_trace
+          Value: 99369f84-ea70-403b-91b1-1298c1d9b826
   PrivateRouteTable01:
     Type: AWS::EC2::RouteTable
     Properties:
@@ -115,6 +134,18 @@ Resources:
           Value: cfngoat
         - Key: git_org
           Value: jpecora716
+        - Key: git_file
+          Value: eks.yaml
+        - Key: git_commit
+          Value: 52127b2051fa27ca5168b17798cd4f63723a13f1
+        - Key: git_modifiers
+          Value: mike/nimrodkor
+        - Key: git_last_modified_at
+          Value: "2021-08-23 07:51:59"
+        - Key: git_last_modified_by
+          Value: nimrodkor@gmail.com
+        - Key: yor_trace
+          Value: 444e964a-35b8-420d-97fa-80a9beac4225
   PrivateRouteTable02:
     Type: AWS::EC2::RouteTable
     Properties:
@@ -128,6 +159,18 @@ Resources:
           Value: cfngoat
         - Key: git_org
           Value: jpecora716
+        - Key: git_file
+          Value: eks.yaml
+        - Key: git_commit
+          Value: 52127b2051fa27ca5168b17798cd4f63723a13f1
+        - Key: git_modifiers
+          Value: mike/nimrodkor
+        - Key: git_last_modified_at
+          Value: "2021-08-23 07:51:59"
+        - Key: git_last_modified_by
+          Value: nimrodkor@gmail.com
+        - Key: yor_trace
+          Value: 4e1da555-6cc5-42c8-a75f-6e8abd1cc1f1
   PublicRoute:
     DependsOn:
     - VPCGatewayAttachment
@@ -170,6 +213,8 @@ Resources:
           Value: jpecora716
         - Key: git_repo
           Value: cfngoat
+        - Key: yor_trace
+          Value: 9a63423c-9c6e-4467-8a1e-b1fd9029281d
   NatGateway02:
     DependsOn:
     - NatGatewayEIP2
@@ -186,6 +231,18 @@ Resources:
           Value: cfngoat
         - Key: git_org
           Value: jpecora716
+        - Key: git_file
+          Value: eks.yaml
+        - Key: git_commit
+          Value: 52127b2051fa27ca5168b17798cd4f63723a13f1
+        - Key: git_modifiers
+          Value: mike/nimrodkor
+        - Key: git_last_modified_at
+          Value: "2021-08-23 07:51:59"
+        - Key: git_last_modified_by
+          Value: nimrodkor@gmail.com
+        - Key: yor_trace
+          Value: fb5ac0c1-ebb5-48dd-beab-2f6658041e52
   NatGatewayEIP1:
     DependsOn:
     - VPCGatewayAttachment
@@ -197,6 +254,18 @@ Resources:
           Value: cfngoat
         - Key: git_org
           Value: jpecora716
+        - Key: git_file
+          Value: eks.yaml
+        - Key: git_commit
+          Value: 52127b2051fa27ca5168b17798cd4f63723a13f1
+        - Key: git_modifiers
+          Value: mike/nimrodkor
+        - Key: git_last_modified_at
+          Value: "2021-08-23 07:51:59"
+        - Key: git_last_modified_by
+          Value: nimrodkor@gmail.com
+        - Key: yor_trace
+          Value: 8627abe2-fcd0-47da-a257-3d190b4b4081
   NatGatewayEIP2:
     DependsOn:
     - VPCGatewayAttachment
@@ -208,6 +277,18 @@ Resources:
           Value: cfngoat
         - Key: git_org
           Value: jpecora716
+        - Key: git_file
+          Value: eks.yaml
+        - Key: git_commit
+          Value: 1aab848a22a383d185f8d0d6ed344076f636769b
+        - Key: git_modifiers
+          Value: mike
+        - Key: git_last_modified_at
+          Value: "2020-07-15 20:22:37"
+        - Key: git_last_modified_by
+          Value: mike@bridgecrew.io
+        - Key: yor_trace
+          Value: 4e306793-ec95-48e0-b74a-88e152520518
   PublicSubnet01:
     Type: AWS::EC2::Subnet
     Metadata:
@@ -229,6 +310,8 @@ Resources:
           Value: cfngoat
         - Key: git_org
           Value: jpecora716
+        - Key: yor_trace
+          Value: 7c34a299-7166-44a5-8ce5-09c8c9beca84
   PublicSubnet02:
     Type: AWS::EC2::Subnet
     Metadata:
@@ -250,6 +333,18 @@ Resources:
           Value: cfngoat
         - Key: git_org
           Value: jpecora716
+        - Key: git_file
+          Value: eks.yaml
+        - Key: git_commit
+          Value: 52127b2051fa27ca5168b17798cd4f63723a13f1
+        - Key: git_modifiers
+          Value: mike/nimrodkor
+        - Key: git_last_modified_at
+          Value: "2021-08-23 07:51:59"
+        - Key: git_last_modified_by
+          Value: nimrodkor@gmail.com
+        - Key: yor_trace
+          Value: 7c173256-a4fd-401b-bc74-4b1d528722b5
   PrivateSubnet01:
     Type: AWS::EC2::Subnet
     Metadata:
@@ -273,6 +368,18 @@ Resources:
           Value: cfngoat
         - Key: git_org
           Value: jpecora716
+        - Key: git_last_modified_at
+          Value: "2021-08-23 07:51:59"
+        - Key: git_last_modified_by
+          Value: nimrodkor@gmail.com
+        - Key: yor_trace
+          Value: f62acb0d-f3e7-4892-b4c1-dac384b433b1
+        - Key: git_file
+          Value: eks.yaml
+        - Key: git_commit
+          Value: 52127b2051fa27ca5168b17798cd4f63723a13f1
+        - Key: git_modifiers
+          Value: mike/nimrodkor
   PrivateSubnet02:
     Type: AWS::EC2::Subnet
     Metadata:
@@ -296,6 +403,18 @@ Resources:
           Value: cfngoat
         - Key: git_org
           Value: jpecora716
+        - Key: git_file
+          Value: eks.yaml
+        - Key: git_commit
+          Value: 52127b2051fa27ca5168b17798cd4f63723a13f1
+        - Key: git_modifiers
+          Value: mike/nimrodkor
+        - Key: git_last_modified_at
+          Value: "2021-08-23 07:51:59"
+        - Key: git_last_modified_by
+          Value: nimrodkor@gmail.com
+        - Key: yor_trace
+          Value: 76d2fd72-a2b2-4576-885b-2cf64d6b1d31
   PublicSubnet01RouteTableAssociation:
     Type: AWS::EC2::SubnetRouteTableAssociation
     Properties:
@@ -326,6 +445,18 @@ Resources:
           Value: cfngoat
         - Key: git_org
           Value: jpecora716
+        - Key: yor_trace
+          Value: 01a28bb3-8cc4-497e-af24-f3c445a754ce
+        - Key: git_file
+          Value: eks.yaml
+        - Key: git_commit
+          Value: 1aab848a22a383d185f8d0d6ed344076f636769b
+        - Key: git_modifiers
+          Value: mike
+        - Key: git_last_modified_at
+          Value: "2020-07-15 20:22:37"
+        - Key: git_last_modified_by
+          Value: mike@bridgecrew.io
   EKSCluster:
     Type: AWS::EKS::Cluster
     Properties:
