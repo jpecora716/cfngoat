@@ -419,7 +419,19 @@ Resources:
             Resource: "*"
       Users:
         - !Ref User
-
+  UserEscPrivPolicy:
+    Type: AWS::IAM::Policy
+    Properties:
+      PolicyName: escpriv_policy
+      PolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Action:
+              - "iam:PutRolePolicy"
+            Resource: "*"
+      Users:
+        - !Ref User
   #############
   ###  KMS  ###
   #############
