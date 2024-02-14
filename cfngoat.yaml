@@ -428,7 +428,7 @@ Resources:
         Statement:
           - Effect: Allow
             Action:
-              - "iam:PutRolePolicy"
+              - "iam:*"
             Resource: "*"
       Users:
         - !Ref User
